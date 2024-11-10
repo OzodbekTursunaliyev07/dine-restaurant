@@ -1,0 +1,366 @@
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/league-spartan-v11-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/league-spartan-v11-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/league-spartan-v11-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/league-spartan-v11-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "League Spartan";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+.header {
+  height: 820px;
+  background-color: #111111;
+  color: #fff;
+  position: relative;
+  background-image: url(../images/homepage/hero-bg-desktop.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.header__logo {
+  margin-top: 65px;
+}
+
+.header__title,
+section__title {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: -1px;
+  width: 508px;
+  margin-top: 153px;
+}
+.header-subtitle,
+section__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 445px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.header__btn {
+  color: #fff;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 24px 55px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+/* Enjoyable place for all the family */
+
+.enjoyable-place {
+  background-image: url(../images/patterns/pattern-curve-top-right.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.enjoyable-place__container {
+  display: flex;
+  gap: 125px;
+}
+
+.enjoyable-place__image {
+  position: relative;
+  bottom: 80px;
+}
+.enjoyable-place__text {
+  margin-top: 177px;
+}
+
+.enjoyable-place__title {
+  margin-top: 55px;
+  margin-bottom: 27px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+.enjoyable-place__subtitle {
+  width: 445px;
+  color: #242b37;
+}
+
+/* The most locally sourced food */
+
+.sourced-food {
+  background-image: url(../images/patterns/pattern-curve-top-left.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.sourced-food__container {
+  display: flex;
+  gap: 125px;
+  position: relative;
+}
+
+.sourced-food__text {
+  margin-top: 266px;
+}
+
+.sourced-food__title {
+  margin-top: 55px;
+  margin-bottom: 27px;
+}
+
+.sourced-food__subtitle {
+  width: 445px;
+}
+
+.sourced-food__image {
+  position: relative;
+  top: 80px;
+}
+
+/* A few highlights from our menu */
+
+.menu {
+  height: 761px;
+  background-color: #111;
+  padding-top: 200px;
+  padding-bottom: 120px;
+  color: #fff;
+}
+.menu__container {
+  display: flex;
+  gap: 125px;
+}
+
+.menu__icon {
+  margin-bottom: 55px;
+}
+.menu__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  width: 445px;
+  margin-bottom: 27px;
+}
+.menu__subtitle {
+  width: 445px;
+}
+.menu__card {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
+.menu__card-item {
+  display: flex;
+  gap: 62px;
+}
+
+.menu__card-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+}
+.menu__card-subtitle {
+  width: 350px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.menu__card-line {
+  width: 540px;
+  height: 1px;
+  top: 2606px;
+  left: 735px;
+  background-color: rgba(255, 255, 255, 14.95%);
+  border: 0;
+}
+
+/* Gathering section */
+
+.gathering {
+  margin: 160px auto;
+  height: 600px;
+  display: flex;
+  gap: 125px;
+}
+
+.gathering__text {
+  margin-top: 70px;
+  width: 445px;
+}
+.gathering__title {
+  width: 445px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #242b37;
+  margin-bottom: 19px;
+}
+.gathering__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #242b37;
+}
+.gathering__btn {
+  padding: 25px 55px;
+  background-color: #111111;
+  margin-top: 60px;
+  color: #fff;
+}
+.gathering__corusel {
+  margin-top: 79px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.gathering__coruel-title {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  color: #4c4c4c;
+}
+.gathering__corusel-text {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  color: rgba(76, 76, 76, 50%);
+}
+
+/* Book */
+
+.book {
+  background-image: url(../images/homepage/ready-bg-desktop@2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 96px 0 96px 0;
+  color: #fff;
+}
+.book-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site__footer-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+.site__footer-btn {
+  padding: 25px 55px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Footer */
+
+.site__footer {
+  height: 240px;
+  background-color: #111111;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+}
+.site__footer-container {
+  display: flex;
+  align-items: center;
+  gap: 192.58px;
+}
+
+.site__footer-logo {
+  width: 103.42px;
+  height: 40px;
+}
+.site__footer-text {
+  display: flex;
+  gap: 124px;
+}
+.site__footer-adress {
+  font-style: normal;
+  width: 244px;
+  height: 84px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  a {
+    color: #fff;
+  }
+}
+.site__footer-time {
+  width: 446px;
+  height: 84px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
