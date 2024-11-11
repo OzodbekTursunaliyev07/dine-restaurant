@@ -61,8 +61,8 @@ body {
   max-width: 1340px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 165px;
-  padding-right: 165px;
+  padding-left: 133px;
+  padding-right: 133px;
 }
 
 .header {
@@ -325,7 +325,6 @@ section__subtitle {
   height: 240px;
   background-color: #111111;
   color: #fff;
-
   display: flex;
   align-items: center;
 }
