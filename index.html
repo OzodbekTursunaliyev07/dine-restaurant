@@ -4,9 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dine Restaurant</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <!-- styles -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- Loader -->
+    <div class="loader">
+      <div class="ring"></div>
+    </div>
+
     <header class="header">
       <div class="container">
         <img src="./images/icons/logo.svg" alt="" class="header__logo" />
@@ -178,16 +191,27 @@
         <div class="site__footer-text">
           <address class="site__footer-adress">
             Marthwaite, Sedbergh <br />
-            Cumbria <br>
+            Cumbria <br />
             <a href="tel:+00441234567">+00441234567</a>
           </address>
 
           <time class="site__footer-time">
-            OPEN TIMES <br> MON - FRI: 09:00 AM - 10:00 PM <br> SAT - SUN: 09:00 AM -
-            11:30 PM
+            OPEN TIMES <br />
+            MON - FRI: 09:00 AM - 10:00 PM <br />
+            SAT - SUN: 09:00 AM - 11:30 PM
           </time>
         </div>
       </div>
     </footer>
+
+    <script>
+      const loaders = document.getElementsByClassName("loader");
+
+      setTimeout(() => {
+        for (let i = 0; i < loaders.length; i++) {
+          loaders[i].style.display = "none";
+        }
+      }, 3000);
+    </script>
   </body>
 </html>
